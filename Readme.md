@@ -1,8 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Milena Bobkova](https://up.htmlacademy.ru/htmlcss/27/user/519159).
-* Наставник: [Ирина Малиновская]
-(https://htmlacademy.ru/profile/irina-malinovskaya).
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
