@@ -8,43 +8,77 @@
 
 <body>
   <header>
-    <h1>Интернет-магазин Device</h1>
+    <h1 class="visually-hidden">Интернет-магазин Девайс</h1>
     <div>
-      <a><img src="img/logo.svg" alt="Логотип интернет-магазина DEVICE"></a>
+      <a>
+        <img src="img/logo.svg" alt="Логотип интернет-магазина Девайс">
+      </a>
     </div>
     <nav>
       <ul>
-        <li><span>Поиск по сайту</span></li>
-        <li><a href="#">Войти</a></li>
-        <li><a href="#">Сравнить</a></li>
-        <li><a href="#">Корзина</a></li>
+        <li>
+          <form method="get" action="#">
+            <button type="submit">
+              <span class="visually-hidden">Поиск</span>
+            </button>
+            <input type="search" name="site-search" placeholder="Поиск по сайту">
+          </form>
+        </li>
+        <li>
+          <a href="#">Войти</a>
+        </li>
+        <li>
+          <a href="#">Сравнить</a>
+        </li>
+        <li>
+          <a href="#">Корзина</a>
+        </li>
       </ul>
       <ul>
-        <li><a href="catalog.html">Каталог товаров</a>
+        <li>
+          <a href="catalog.html">Каталог товаров</a>
           <ul>
             <li>
               <ul>
-                <li><a href="#">Виртуальная реальность</a></li>
-                <li><a href="#">Моноподы для селфи</a></li>
-                <li><a href="#">Экшн-камеры</a></li>
+                <li>
+                  <a href="#">Виртуальная реальность</a>
+                </li>
+                <li>
+                  <a href="#">Моноподы для селфи</a>
+                </li>
+                <li>
+                  <a href="#">Экшн-камеры</a>
+                </li>
               </ul>
             </li>
             <li>
               <ul>
-                <li><a href="#">Фитнес-браслеты</a></li>
-                <li><a href="#">Умные часы</a></li>
+                <li>
+                  <a href="#">Фитнес-браслеты</a>
+                </li>
+                <li>
+                  <a href="#">Умные часы</a>
+                </li>
               </ul>
             </li>
             <li>
               <ul>
-                <li><a href="#">Квадрокоптеры</a></li>
+                <li>
+                  <a href="#">Квадрокоптеры</a>
+                </li>
               </ul>
             </li>
           </ul>
         </li>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Гарантия</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li>
+          <a href="#">Доставка</a>
+        </li>
+        <li>
+          <a href="#">Гарантия</a>
+        </li>
+        <li>
+          <a href="#">Контакты</a>
+        </li>
       </ul>
     </nav>
   </header>
@@ -52,7 +86,7 @@
   <main>
     <!--Слайдер-->
     <section>
-      <h2>Слайдер</h2>
+      <h2 class="visually-hidden">Слайдер</h2>
       <!--Слайдер 01-->
       <div>
         <div>
@@ -124,11 +158,13 @@
 
     <!--Группы товаров-->
     <section>
-      <h2>Популярные товары</h2>
+      <h2 class="visually-hidden">Популярные товары</h2>
       <ul>
         <li>
           <a href="#">
-            <div><img src="img/popular-goods-vr.svg" alt="VR"></div>
+            <div>
+              <img src="img/popular-goods-vr.svg" alt="Виртуальная реальность">
+            </div>
             <p>Виртуальная реальность</p>
           </a>
         </li>
@@ -177,7 +213,7 @@
 
     <!--Сервис
     <section>
-        <h2>Сервис</h2>
+        <h2 class="visually-hidden">Сервис</h2>
         <article>
           <div>
             <h3>Доставка</h3>
@@ -200,30 +236,30 @@
 
     <!--Логотипы компаний-->
     <section>
-      <h2>Логотипы компаний</h2>
+      <h2 class="visually-hidden">Логотипы компаний</h2>
       <ul>
         <li>
           <a href="#">
             <img src="img/dji-color.png" alt="Логотип DJI">
-            <span>DJI</span>
+            <span class="visually-hidden">DJI</span>
           </a>
         </li>
         <li>
           <a href="#">
             <img src="img/spgadgets-color.png" alt="Логотип SPGadgets">
-            <span>SPGadgets</span>
+            <span class="visually-hidden">SPGadgets</span>
           </a>
         </li>
         <li>
           <a href="#">
             <img src="img/gopro-color.png" alt="Логотип GoPro">
-            <span>GoPro</span>
+            <span class="visually-hidden">GoPro</span>
           </a>
         </li>
         <li>
           <a href="#">
             <img src="img/vive-color.png" alt="Логотип Vive">
-            <span>Vive</span>
+            <span class="visually-hidden">Vive</span>
           </a>
         </li>
       </ul>
@@ -235,17 +271,25 @@
         <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
         <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
         <ul>
-          <li><a href="#">Деловые линии</a></li>
-          <li><a href="#">Автотрейдинг</a></li>
-          <li><a href="#">ЖелДорЭкспедиция</a></li>
+          <li>
+            <a href="#">Деловые линии</a>
+          </li>
+          <li>
+            <a href="#">Автотрейдинг</a>
+          </li>
+          <li>
+            <a href="#">ЖелДорЭкспедиция</a>
+          </li>
         </ul>
-        <a>Подробнее о нас</a>
+        <a href="#">Подробнее о нас</a>
       </section>
 
       <section>
         <h2>Контакты</h2>
         <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-        <a><img src="img/map.png" alt="Карта"></a>
+        <a href="#">
+          <img src="img/map.png" alt="Карта">
+        </a>
         <a href="#">Напишите нам</a>
       </section>
     </div>
@@ -255,34 +299,91 @@
   <footer>
     <div>
       <div>
-        <img src="img/logo.svg" alt="Логотип">
+        <img src="img/logo.svg" alt="Логотип интернет-магазина Девайс">
       </div>
       <ul>
-        <li><a href="#">Войти</a></li>
-        <li><a href="#">Сравнить</a></li>
-        <li><a href="#">Корзина</a></li>
+        <li>
+          <a href="#">Войти</a>
+        </li>
+        <li>
+          <a href="#">Сравнить</a>
+        </li>
+        <li>
+          <a href="#">Корзина</a>
+        </li>
       </ul>
     </div>
     <div>
       <p>г. Москва, ул. Строителей, 15</p>
       <ul>
-        <li><a href="#"></a>Доставка</li>
-        <li><a href="#"></a>Гарантия</li>
-        <li><a href="#"></a>Контакты</li>
+        <li>
+          <a href="#">Доставка</a>
+        </li>
+        <li>
+          <a href="#">Гарантия</a>
+        </li>
+        <li><a href="#">Контакты</a>
+        </li>
       </ul>
       <p>Тел.: +7 (495) 495-95-95</p>
     </div>
     <div>
       <ul>
-        <li><a href="#"></a>Facebook</li>
-        <li><a href="#"></a>Instagram</li>
-        <li><a href="#"></a>Twitter</li>
+        <li>
+          <a href="#">
+            <span class="visually-hidden">Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="visually-hidden">Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="visually-hidden">Twitter</span>
+          </a>
+        </li>
       </ul>
       <div>
-        <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-html.svg" alt="Логотип HTML Academy"></a>
+        <a href="https://htmlacademy.ru/intensive/htmlcss">
+          <img src="img/logo-html.svg" alt="Логотип HTML Academy">
+        </a>
       </div>
     </div>
   </footer>
+
+  <section>
+    <h2 class="visually-hidden">Напишите нам</h2>
+    <form action="#" method="post">
+      <div>
+        <label for="user-name-id">Ваше имя:</label>
+        <input id="user-name-id" type="text" name="user-name" placeholder="Имя Фамилия">
+      </div>
+      <div>
+        <label for="user-email-id">Ваш e-mail:</label>
+        <input id="user-email-id" type="email" name="user-email" placeholder="email@example.com">
+      </div>
+      <div>
+        <label for="user-message-id">Текст письма:</label>
+        <input id="user-message-id" type="text" name="user-message" placeholder="В свободной форме">
+      </div>
+      <button type="submit">Отправить</button>
+    </form>
+    <button type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+  </section>
+
+  <section>
+    <h2 class="visually-hidden">Как до нас добраться</h2>
+    <div>
+      <img src="img/map-big.png" alt="Офис компании по адресу улица Строителей 15">
+    </div>
+    <button type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+  </section>
 </body>
 
 </html>
