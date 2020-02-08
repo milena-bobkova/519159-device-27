@@ -1,0 +1,390 @@
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 800;
+  font-style: normal;
+  
+  src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
+  url("../fonts/gilroyextrabold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 300;
+  font-style: normal;
+ 
+  src: url("../fonts/gilroylight.woff2") format("woff2"),
+  url("../fonts/gilroylight.woff") format("woff");
+}
+
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  color: #464646;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: #f7e296; 
+}
+
+.main-navigation {
+  color: #000000; 
+}
+
+.user-navigation {
+  list-style: none;
+}
+
+.user-navigation a {
+  color: #000000;
+}
+
+.user-navigation a:hover {
+  opacity: 0.6;
+
+}
+
+.user-navigation a:focus {
+  opacity: 0.3;
+}
+
+.user-search-input {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  color: #000000;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+  
+.user-search-input::-webkit-input-placeholder {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.user-search-input::-moz-placeholder {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.user-search-input:-moz-placeholder {
+  color: #000000;
+}
+
+.user-search-input:-ms-input-placeholder {
+  color: #000000;
+  opacity: 0.3;  
+}   
+
+.user-search-input:hover::-webkit-input-placeholder { 
+  color: #000000;
+  opacity: 0.6;
+}
+
+.user-search-input:hover::-moz-placeholder {
+  color: #000000;
+  opacity: 0.6;
+}
+
+.user-search-input:hover:-moz-placeholder { 
+  color: #000000;
+  opacity: 0.6;
+}
+
+.user-search-input:hover:-ms-input-placeholder {
+  opacity: 0.6;  
+} 
+
+.user-search-input:focus::-webkit-input-placeholder { 
+  opacity: 0;
+}
+
+.user-search-input:focus::-moz-placeholder {
+  opacity: 0;
+}
+
+.user-search-input:focus:-moz-placeholder { 
+  opacity: 0;
+}
+
+.user-search-input:focus:-ms-input-placeholder {
+  opacity: 0;  
+} 
+
+.site-navigation {
+  list-style: none;
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover {
+  opacity: 0.6;
+
+}
+
+.site-navigation a:focus {
+  opacity: 0.3;
+}
+
+.catalog-items {
+  list-style: none;
+}
+
+.catalog-items-1,
+.catalog-items-2,
+.catalog-items-3 {
+  list-style: none;
+}
+
+.catalog-items-1 a,
+.catalog-items-2 a,
+.catalog-items-3 a {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 36px;
+  letter-spacing: 0.01em; 
+}
+
+>main-info {
+  letter-spacing: 0;
+}
+
+.main-info h2 {
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  font-weight: 800;
+  font-size: 47px;
+  letter-spacing: 0.01em;
+  line-height: 48px;
+  color: #000000;
+}
+
+.info-delivery {
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 40px;
+  color: #000000;
+  list-style-type: circle;
+}
+
+.info-delivery a{
+  color: #000000;
+}
+
+.button {
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  border: none;
+}
+
+.button:hover{
+  
+}
+
+.button:focus {
+  opacity: 0.3;
+}
+
+.main-footer {
+  color: #ffffff;
+  background-color: #464646;
+}
+
+.footer-user-navigation {
+  list-style: none;
+  line-height: 36px;
+}
+
+.footer-user-navigation a {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.footer-user-navigation a:hover {
+  opacity: 1;
+}
+
+.footer-user-navigation a:focus {
+  opacity: 0.3;
+}
+
+.footer-info {
+  letter-spacing: 0;
+}
+
+.footer-nav-services {
+  list-style: none;
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.footer-nav-services a{
+  color: #ffffff;
+}
+
+.footer-nav-services a:hover{
+  opacity: 0.6;
+}
+
+.footer-nav-services a:focus{
+  opacity: 0.3;
+}
+
+.footer-socials {
+  list-style: none;
+}
+
+/*Каталог*/
+
+.catalog-content-title h2{
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  font-weight: 800;
+  font-size: 47px;
+  letter-spacing: 0.01em;
+  line-height: 48px;
+  color: #000000;
+}
+
+.breadcrumbs {
+  list-style:  none;
+  font-size: 14px;
+  line-height:  24px;
+}
+
+.breadcrumbs a{
+  color: #000000;
+  opacity: 0.3;
+}
+
+.breadcrumbs a:hover{
+  color: #000000;
+  opacity: 0.6;
+}
+
+.breadcrumbs a:focus{
+  color: #000000;
+  opacity: 0.1;
+}
+
+.filter-content {
+  background-color: #efefef; 
+}
+
+.catalog-filter legend {
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  letter-spacing: 0.01em;
+}
+
+.filter-color,
+.filter-bluetooth {
+  list-style:  none;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.product-pic {
+  background-color: #efefef;
+}
+
+.product-pic span {
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.2;
+}
+
+.product-hover {
+  background-color: #eeeeee;
+  opacity: 0.7;
+}
+
+.product-hover .compare {
+  font-size: 13px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.product-name h4 {
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  letter-spacing: 0.01em;
+}
+
+.product-name a {
+  color: #000000;
+}
+
+.product-name span {
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  letter-spacing: 0.01em;
+}
+
+
+
+
+
+
+
+
+
+
