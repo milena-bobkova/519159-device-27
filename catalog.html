@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML Academy: Девайс. Каталог интернет-магазина.</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap&subset=cyrillic-ext" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap&subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -162,9 +162,9 @@
 
       <div>
         <h2 class="visually-hidden">Все товары</h2>
-        <section>
+        <section class="sorting">
           <h3>Сортировка</h3>
-          <ul class="sorting-types">
+          <ul class="sorting-type">
             <li>
               <a href="#">По цене</a>
             </li>
@@ -257,17 +257,17 @@
         </section>
 
         <!--Pagination-->
-        <section>
-          <div>
-            <div>
+        <section class="pagination">
+          <div class="pagination-wrapper">
+            <div class="pagination-prev">
               <a href="#prev">Назад</a>
             </div>
-            <div>
+            <div class="pagination-count">
               <a href="#1">1</a>
               <a href="#2">2</a>
               <a href="#3">3</a>
             </div>
-            <div>
+            <div class="pagination-next">
               <a href="#next">Вперёд</a>
             </div>
           </div>
@@ -280,7 +280,9 @@
    <footer class="main-footer">
     <div class="footer-navigation">
       <div class="footer-logo">
+       <a href="index.html">
         <img src="img/logo.svg" alt="Логотип интернет-магазина Девайс">
+        </a>
       </div>
       <ul class="footer-user-navigation">
         <li>

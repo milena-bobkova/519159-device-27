@@ -17,7 +17,6 @@
   url("../fonts/gilroylight.woff") format("woff");
 }
 
-
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -61,7 +60,6 @@ a {
 
 .user-navigation a:hover {
   opacity: 0.6;
-
 }
 
 .user-navigation a:focus {
@@ -134,6 +132,18 @@ a {
   opacity: 0;  
 } 
 
+.user-search-input:focus {
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+.user-search-input::-webkit-search-decoration,
+.user-search-input::-webkit-search-cancel-button,
+.user-search-input::-webkit-search-results-button,
+.user-search-input::-webkit-search-results-decoration { 
+  display: none; 
+}
+
 .site-navigation {
   list-style: none;
   font-family: "Gilroy", "Tahoma", sans-serif;
@@ -150,7 +160,6 @@ a {
 
 .site-navigation a:hover {
   opacity: 0.6;
-
 }
 
 .site-navigation a:focus {
@@ -178,8 +187,8 @@ a {
   letter-spacing: 0.01em; 
 }
 
->main-info {
-  letter-spacing: 0;
+.main-info {
+  letter-spacing: 0.01em;
 }
 
 .main-info h2 {
@@ -221,6 +230,35 @@ a {
 
 .button:focus {
   opacity: 0.3;
+}
+
+.product-list {
+  list-style: none;
+}
+
+.product-list a {
+  color: #000000;
+}
+
+.product-wrap p {
+  color: inherit;
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}
+
+.product-wrap:hover {
+  
+}
+
+.product-wrap:focus p {
+  opacity: 0.3;
+}
+
+.partners-logo-list {
+  list-style: none;
 }
 
 .main-footer {
@@ -309,6 +347,24 @@ a {
   opacity: 0.1;
 }
 
+.catalog-filter-title {
+  background-color: #dcdcdc;
+}
+
+.catalog-filter fieldset {
+  border: none;
+}
+
+.catalog-filter-title h3 {
+   font-family: "Gilroy", "Tahoma", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
 .filter-content {
   background-color: #efefef; 
 }
@@ -327,6 +383,39 @@ a {
   list-style:  none;
   font-size: 14px;
   line-height: 40px;
+}
+
+.sorting h3 {
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.sorting a {
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 18px;
+  opacity: 0.3;
+}
+
+.sorting a:hover {
+  opacity: 0.6;
+}
+
+.sorting a:focus {
+  opacity: 1;
+}
+
+.sorting-type,
+.sorting-price {
+  list-style: none;
 }
 
 .product-pic {
@@ -379,12 +468,39 @@ a {
   letter-spacing: 0.01em;
 }
 
+.pagination-wrapper {
+  background-color: #ebebeb;
+}
 
+.pagination-wrapper a {
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
 
+.pagination-count a {
+  opacity: 0.3;
+}
 
+.pagination-count a:hover {
+  opacity: 0.6;
+}
 
+.pagination-count a:focus {
+  opacity: 1;
+}
 
+.pagination-prev a:hover,
+.pagination-next a:hover {
+  background-color: #d9d9d9;
+}
 
-
-
-
+.pagination-prev a:focus,
+.pagination-next a:focus {
+  opacity: 0.3;
+  background-color: #d9d9d9;
+}
