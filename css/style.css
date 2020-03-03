@@ -458,7 +458,7 @@ img {
   position: absolute;
   left: 1px;
 
-  width: 13px;
+  width: 13ppx;
   height: 12px;
 }
 
@@ -2354,8 +2354,6 @@ img {
   content: "";
 
   position: absolute;
-  top;
-  0;
   left: 13px;
 
   width: 30px;
@@ -2441,7 +2439,7 @@ img {
 }
 
 .write-us-form input:invalid {
-  background-color: rgba (246, 218, 218, 0.4);
+  background-color: rgba(246, 218, 218, 0.4);
 }
 
 .write-us-form textarea {
@@ -2461,8 +2459,6 @@ img {
 }
 
 .modal-map {
-  display: fixed;
-
   top: 50%;
   left: 50%;
 
